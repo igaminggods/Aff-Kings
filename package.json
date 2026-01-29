@@ -1,0 +1,17 @@
+{
+  "name": "aff-kings-redirect",
+  "version": "1.0.0",
+  "description": "Blank website with redirect subpages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["redirect", "affiliate"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
