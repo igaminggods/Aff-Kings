@@ -1,6 +1,6 @@
 # Aff Kings Redirect Site
 
-A blank website with 4 subpages ready for redirect configuration.
+A blank website with redirect subpages ready for affiliate link redirects.
 
 ## Pages
 
@@ -9,6 +9,7 @@ A blank website with 4 subpages ready for redirect configuration.
 - `/blog` - Blog redirect page
 - `/reg` - Registration redirect page
 - `/dep` - Deposit redirect page
+- `/spino` - Spino redirect page
 
 ## Setup
 
@@ -37,4 +38,6 @@ app.get('/blank', (req, res) => {
 ## Port
 
 The server runs on port 3000 by default. You can change this by setting the `PORT` environment variable.
+
+
 

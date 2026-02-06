@@ -27,6 +27,10 @@ app.get('/dep', (req, res) => {
   res.redirect('https://track.ftdgallery.com/visit/?bta=36322&nci=5503&afp10=Streamers');
 });
 
+app.get('/spino', (req, res) => {
+  res.redirect('https://track.ftdgallery.com/visit/?bta=36322&brand=spinogambino');
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
