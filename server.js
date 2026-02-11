@@ -12,11 +12,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/blank', (req, res) => {
-  res.redirect('https://track.ftdgallery.com/visit/?bta=36322&nci=5527&afp10=Streamers');
+  res.redirect('https://track.ftdgallery.com/visit/?bta=36322&nci=5486');
 });
 
 app.get('/blog', (req, res) => {
-  res.redirect('https://track.ftdgallery.com/visit/?bta=36322&nci=5549&afp10=Streamers');
+  res.redirect('https://track.ftdgallery.com/visit/?bta=36322&nci=5390');
 });
 
 app.get('/reg', (req, res) => {
